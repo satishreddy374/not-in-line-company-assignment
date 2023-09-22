@@ -1,0 +1,226 @@
+
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #aad5d3, white, white);
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.mobile-view-login-heading {
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-view-login-checkup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-view-checkup-text {
+  background-color: #283e4b;
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.mobile-view-price-text {
+  background-color: #1ca2ef;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .login-page-container {
+    flex-direction: row;
+    background-image: linear-gradient(to right, #aad5d3, white, white);
+    padding: 30px;
+  }
+
+  .mobile-view-login-heading {
+    display: none;
+  }
+
+  .mobile-view-login-checkup {
+    display: none;
+  }
+}
+
+.left-side-section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 10px 8px 10px 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  flex-grow: 1;
+}
+
+.login-form-text {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.input-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 22px;
+  width: 70%
+}
+
+.input-element {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-left: 12px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.checkbox-element {
+  height: 18px;
+  width: 18px;
+  margin-right: 14px;
+}
+
+
+.label-text {
+  color: #5f5c60;
+  font-size: 17px;
+  font-family: "Roboto";
+}
+
+.special-label-text {
+  color: #000000;
+  font-size: 19px;
+}
+
+.proceed-button {
+  background-color: #1f49f2;
+  border: none;
+  padding: 8px 35px 8px 35px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .left-side-section-container {
+    width: 50%;
+  }
+
+  .login-form-text {
+    font-size: 25px;
+  }
+
+  .input-details-container {
+    margin-bottom: 20px;
+    width: 75%
+  }
+}
+
+
+.price-text{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.checkup-price-text {
+  background-color: #283e4b;
+  padding: 8px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .checkup-price-text {
+    display: none;
+  }
+}
+
+.intial-price {
+  text-decoration: line-through;
+}
+
+.percentage-text {
+  color: #1ca2ef;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+
+
+.right-side-section-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .right-side-section-container {
+    display: none;
+  }
+}
+
+
+.login-page-right-side-heading {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.best-in-class-heading {
+  color: #1ca2ef;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.lab-microscope-images {
+  width: 80%;
+}
+
+
+
+

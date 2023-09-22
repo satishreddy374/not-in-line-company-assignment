@@ -1,0 +1,326 @@
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.nabl-certified-and-free-sample-collection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nabl-certified-and-free-sample-collection-container {
+        flex-direction: row;
+    }
+}
+
+.nabl-certified-container {
+    display: flex;
+    align-items: center;
+}
+
+.nabl-certifed-text {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.NABL-lab-logo-image {
+    height: 60px;
+    width: 60px;
+    margin-right: 6px;
+}
+
+.free-sample-container {
+    display: flex;
+    align-items: center;
+}
+
+.lab-samples-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.free-sample-collection-text {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .nabl-certified-container {
+        margin-right: 26px;
+    }
+
+    .lab-samples-image {
+        height: 50px;
+        width: 50px;
+        border-radius: 18px;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+.we-keep-expanding-heading {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #020d14;
+}
+
+.expanding-heading {
+    color: #3b8cde;
+}
+
+@media screen and (min-width: 768px) {
+    .we-keep-expanding-heading {
+        font-size: 38px;
+    }
+}
+
+
+.tabs-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.tab-container {
+    background-color: #479bda;
+    border-radius: 26px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.each-tab-count {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.each-tab-text {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .tab-container {
+        margin: 16px;
+        border-radius: 8px;
+    }
+
+}
+
+.top-packages-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+.packages-heading {
+    color: #3b8cde;
+}
+
+.home-page-text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #929da9;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .top-packages-heading {
+        font-size: 40px;
+    }
+
+    .home-page-text {
+        font-size: 24px;
+    }
+}
+
+
+.lab-test-card-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.lab-test-card-container {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    padding: 10px 12px 10px 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 350px;
+}
+
+.lab-test-card-heading {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #132940;
+}
+
+.rating-and-review-container {
+    display: flex;
+    align-items: center;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.rating-text {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #132940;
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.review-text {
+    color: #9c9ea0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+
+.lab-test-count {
+    color: #111b25;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.mrp-price-text {
+    color: #9a9c9f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.initial-price-text {
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.offer-price-text {
+    color: #626567;
+    font-weight: 500;
+}
+
+.book-now-button {
+    background-color: #5fa5ec;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding: 8px 35px 8px 35px;
+    border: none;
+    align-self: center;
+    border-radius: 10px;
+    width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .lab-test-card-list-container {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .lab-test-card-container {
+        width: 30%;
+        margin: 10px;
+        height: 380px;
+        padding: 25px 22px 25px 22px;
+        margin-right: 4px;
+    }
+
+    .lab-test-card-heading {
+        font-size: 26px;
+    }
+
+    .rating-text {
+        font-size: 20px;
+    }
+
+    .review-text {
+        font-size: 20px;
+    }
+
+    .lab-test-count  {
+        font-size: 21px;
+    }
+
+    .mrp-price-text  {
+        font-size: 20px;
+    }
+
+    .book-now-button {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

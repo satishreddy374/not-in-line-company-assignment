@@ -1,0 +1,151 @@
+
+.footer-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #102730;
+  padding: 15px 22px 15px 22px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.left-side-section {
+  width: 100%;
+  flex-grow: 1;
+}
+
+
+.left-section-text {
+  color: gray;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer-page-container {
+    flex-direction: row;
+    padding: 20px 30px 20px 30px;
+  }
+
+  .left-side-section {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .left-section-text {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+
+
+}
+
+
+.call-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #506066;
+  width: 50%;
+  padding-left: 10px;
+  border-radius: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .call-input-container {
+    width: 250px;
+  }
+
+}
+
+.text-91 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+
+.input-number-ele {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  border-left: 3px solid #ffffff;
+}
+
+.call-button {
+  background-color: #2cb5ea;
+  padding: 23px;
+  border: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .input-number-ele {
+    width: 150px;
+  }
+
+}
+
+
+.right-side-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.each-container {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin: 4px;
+}
+
+.each-container-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+
+.each-container-text {
+  color: gray;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .right-side-section  {
+    width: 70%;
+  }
+
+  .each-container {
+    width: 30%;
+    margin: 8px;
+  }
+
+  .each-container-heading {
+    font-size: 26px;
+  }
+
+  .each-container-text {
+    font-size: 18px;
+  }
+
+}
+
+

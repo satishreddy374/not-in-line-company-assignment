@@ -1,0 +1,163 @@
+
+.why-choose-us-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #92c0ee;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.why-choose-us-heading {
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.choose-heading {
+    color: #5fa5ec
+}
+
+.why-choose-us-text {
+    color: #919ba5;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .why-choose-us-heading {
+        font-size: 40px;
+    }
+
+    .why-choose-us-text  {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+.why-choose-us-card-lists-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-choose-us-card-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 28px;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    height: 260px;
+    margin-right: 40px;
+}
+
+.why-choose-us-card-image {
+    height: 60px;
+    width: 60px;
+    align-self: flex-end;
+}
+
+.why-choose-us-card-heading {
+    color: #181a1d;
+    font-size: 26px;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: left;
+}
+
+.why-choose-us-card-text {
+    color: #6c6e71;
+    font-size: 19px;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: left;
+}
+
+.why-choose-us-image-container {
+    width: 100%;
+    display: flex;
+    margin-left: 86px;
+}
+
+.why-choose-doctor-image {
+    width: 90%;
+    height: 76%;
+    align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .why-choose-us-card-lists-container {
+        flex-direction: row;
+    }
+
+    .card-list-container {
+        width: 50%;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .why-choose-us-card-container {
+        width: 43%;
+        margin: 10px;
+        height: 320px;
+        border-radius: 8px;
+        margin-right: 0px;
+    }
+
+    .why-choose-us-card-image {
+        height: 45px;
+        width: 45px;
+        align-self: flex-end;
+    }
+
+    .why-choose-us-card-heading {
+        font-size: 24px;
+        font-family: "Roboto";
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .why-choose-us-card-text {
+        font-size: 17px;
+    }
+
+    .why-choose-us-image-container {
+        width: 50%;
+        height: 98%;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
+
+
